@@ -1,39 +1,62 @@
 <template>
-  <footer>
-    <ul>
-      <li>
-        <router-link to="/home">
-          <img src="../assets/images/ft2.png">
-          <p>首页</p>
-        </router-link>
-      </li>
-      <li>
-        <router-link to="/category">
-          <img src="../assets/images/ft2.png">
-          <p>分类</p>
-        </router-link>
-      </li>
-      <li>
-        <img src="../assets/images/ft2.png">
-        <p>购物车</p>
-      </li>
-      <li>
-        <img src="../assets/images/ft2.png">
-        <p>我的</p>
-      </li>
-    </ul>
-  </footer>
+  <div class="my-footer">
+    <footer>
+      <ul>
+        <li>
+          <router-link to="/home">
+            <i class="iconfont">&#xe751;</i>
+            <p>首页</p>
+          </router-link>
+        </li>
+        <li>
+          <router-link to="/category">
+            <i class="iconfont">&#xe78e;</i>
+            <p>分类</p>
+          </router-link>
+        </li>
+        <li @click = "gotoAddress('/car')">
+          <i class="iconfont">&#xe73d;</i>
+          <p>购物车</p>
+        </li>
+        <li @click = "gotoAddress('/uc')">
+          <i class="iconfont">&#xe75e;</i>
+          <p>我的</p>
+        </li>
+      </ul>
+    </footer>
+  </div>
 </template>
 <script>
   export default {
-    name: 'myFooter'
+    data () {
+      return {
+
+      }
+    },
+    created () {
+
+    },
+    mounted () {
+
+    },
+    computed: {
+
+    },
+    methods: {
+      gotoAddress (path) {
+        this.$router.push(path)
+      }
+    }
   }
 </script>
 <style lang="scss" type="text/css" rel="stylesheet/scss">
   @import url("../style/common.scss");
+  .my-footer{
+    padding-bottom: .96rem;
+  }
   footer{
     background-color: #000;
-    height: 1rem;
+    height: .96rem;
     width: 7.5rem;
     color: #ffffff;
     position: fixed;
@@ -43,12 +66,12 @@
       li{
         width: 25%;
         float: left;
-        height: 1rem;
-        line-height: 0.42rem;
+        height: .96rem;
+        line-height: 0.4rem;
         text-align: center;
-        img{
-          height: 0.4rem;
-          width: 0.4rem;
+        .iconfont{
+          font-size: 0.4rem;
+          color: #fff;
         }
         p{
           font-size: 0.24rem;

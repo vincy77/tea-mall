@@ -5,6 +5,8 @@ import Router from 'vue-router'
 // import HelloWorld from '@/components/HelloWorld'
 const home = r => require.ensure([], () => r(require('../views/home/home')), 'home')
 const category = r => require.ensure([], () => r(require('../views/category/category')), 'category')
+const car = r => require.ensure([], () => r(require('../views/car/car')), 'car')
+const uc = r => require.ensure([], () => r(require('../views/uc/uc')), 'uc')
 
 Vue.use(Router)
 const routes = [{
@@ -26,6 +28,16 @@ const routes = [{
     {
       path: '/category',
       component: category
+    },
+    // 购物车
+    {
+      path: '/car',
+      component: car
+    },
+    // 我的
+    {
+      path: '/uc',
+      component: uc
     }
   ]
 }

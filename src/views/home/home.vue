@@ -1,9 +1,19 @@
 <template>
   <div id="home">
     <section class="banner">
-
+      <my-slider></my-slider>
     </section>
-    <section class="tip"></section>
+    <section class="tip">
+      <router-link to="">
+        <p>优质严选</p>
+      </router-link>
+      <router-link to="">
+        <p>优质严选</p>
+      </router-link>
+      <router-link to="">
+        <p>优质严选</p>
+      </router-link>
+    </section>
     <section class="main-pro">
       <div class="main-pro-item main-pro-item1">
         <img src="../../assets/images/ft2.png">
@@ -23,55 +33,175 @@
     </section>
     <section class="prime-pro">
       <div class="prime-pro-banner">
+        <div class="banner-category">绿茶</div>
         <img src="../../assets/images/ft2.png">
       </div>
       <div class="prime-pro-list">
         <ul class="pro-list">
           <li class="list-item">
-            <img src="../../assets/images/ft2.png">
+            <router-link to="">
+              <div class="img-info">
+                <img src="../../assets/images/ft2.png">
+              </div>
+              <div class="pro-info">
+                <p class="title">标题</p>
+                <p class="price">¥<span>600.00</span></p>
+              </div>
+            </router-link>
           </li>
           <li class="list-item">
-            <img src="../../assets/images/ft2.png">
+            <router-link to="">
+              <div class="img-info">
+                <img src="../../assets/images/ft2.png">
+              </div>
+              <div class="pro-info">
+                <p class="title">标题</p>
+                <p class="price">¥<span>600.00</span></p>
+              </div>
+            </router-link>
           </li>
           <li class="list-item">
-            <img src="../../assets/images/ft2.png">
+            <router-link to="">
+              <div class="img-info">
+                <img src="../../assets/images/ft2.png">
+              </div>
+              <div class="pro-info">
+                <p class="title">标题</p>
+                <p class="price">¥<span>600.00</span></p>
+              </div>
+            </router-link>
           </li>
           <li class="list-item">
-            <img src="../../assets/images/ft2.png">
+            <router-link to="">
+              <div class="img-info">
+                <img src="../../assets/images/ft2.png">
+              </div>
+              <div class="pro-info">
+                <p class="title">标题</p>
+                <p class="price">¥<span>600.00</span></p>
+              </div>
+            </router-link>
           </li>
         </ul>
       </div>
     </section>
     <section class="prime-pro">
       <div class="prime-pro-banner">
+        <div class="banner-category">红茶</div>
         <img src="../../assets/images/ft2.png">
       </div>
       <div class="prime-pro-list">
         <ul class="pro-list">
           <li class="list-item">
-            <img src="../../assets/images/ft2.png">
+            <router-link to="">
+              <div class="img-info">
+                <img src="../../assets/images/ft2.png">
+              </div>
+              <div class="pro-info">
+                <p class="title">标题</p>
+                <p class="price">¥<span>600.00</span></p>
+              </div>
+            </router-link>
           </li>
           <li class="list-item">
-            <img src="../../assets/images/ft2.png">
+            <router-link to="">
+              <div class="img-info">
+                <img src="../../assets/images/ft2.png">
+              </div>
+              <div class="pro-info">
+                <p class="title">标题</p>
+                <p class="price">¥<span>600.00</span></p>
+              </div>
+            </router-link>
           </li>
           <li class="list-item">
-            <img src="../../assets/images/ft2.png">
+            <router-link to="">
+              <div class="img-info">
+                <img src="../../assets/images/ft2.png">
+              </div>
+              <div class="pro-info">
+                <p class="title">标题</p>
+                <p class="price">¥<span>600.00</span></p>
+              </div>
+            </router-link>
           </li>
           <li class="list-item">
-            <img src="../../assets/images/ft2.png">
+            <router-link to="">
+              <div class="img-info">
+                <img src="../../assets/images/ft2.png">
+              </div>
+              <div class="pro-info">
+                <p class="title">标题</p>
+                <p class="price">¥<span>600.00</span></p>
+              </div>
+            </router-link>
           </li>
         </ul>
       </div>
     </section>
-    <section class="no-pro">
-      <p>没有更多商品了～</p>
+    <section class="prime-pro">
+      <div class="prime-pro-banner">
+        <div class="banner-category">乌龙茶</div>
+        <img src="../../assets/images/ft2.png">
+      </div>
+      <div class="prime-pro-list">
+        <ul class="pro-list">
+          <li class="list-item">
+            <router-link to="">
+              <div class="img-info">
+                <img src="../../assets/images/ft2.png">
+              </div>
+              <div class="pro-info">
+                <p class="title">标题</p>
+                <p class="price">¥<span>600.00</span></p>
+              </div>
+            </router-link>
+          </li>
+          <li class="list-item">
+            <router-link to="">
+              <div class="img-info">
+                <img src="../../assets/images/ft2.png">
+              </div>
+              <div class="pro-info">
+                <p class="title">标题</p>
+                <p class="price">¥<span>600.00</span></p>
+              </div>
+            </router-link>
+          </li>
+          <li class="list-item">
+            <router-link to="">
+              <div class="img-info">
+                <img src="../../assets/images/ft2.png">
+              </div>
+              <div class="pro-info">
+                <p class="title">标题</p>
+                <p class="price">¥<span>600.00</span></p>
+              </div>
+            </router-link>
+          </li>
+          <li class="list-item">
+            <router-link to="">
+              <div class="img-info">
+                <img src="../../assets/images/ft2.png">
+              </div>
+              <div class="pro-info">
+                <p class="title">标题</p>
+                <p class="price">¥<span>600.00</span></p>
+              </div>
+            </router-link>
+          </li>
+        </ul>
+      </div>
     </section>
+    <no-result></no-result>
     <my-footer></my-footer>
   </div>
 </template>
 
 <script>
   import myFooter from '../../components/myFooter'
+  import noResult from '../../components/noResult'
+  import mySlider from '../../components/slider/mySlider'
 
   export default {
     data () {
@@ -79,22 +209,34 @@
         msg: 'Welcome to footer'
       }
     },
-    components: {myFooter}
+    mounted () {
+
+    },
+    methods: {
+
+    },
+    components: {myFooter, noResult, mySlider}
   }
 </script>
 <style lang="scss" type="text/css" rel="stylesheet/scss">
   @import url("../../style/common.scss");
   #home{
     background-color: #fff;
-    margin-bottom: 1.2rem;
     .banner{
       width: 7.5rem;
-      height: 3rem;
-      background-color: black;
+      height: 5rem;
+      background-color: #000;
     }
     .tip{
       width: 7.5rem;
       height: 0.8rem;
+      a{
+        width: 33.33%;
+        font-size: 0.28rem;
+        text-align: center;
+        float: left;
+        line-height: 0.8rem;
+      }
     }
     .main-pro{
       width: 7.5rem;
@@ -102,6 +244,9 @@
       position: relative;
       .main-pro-item{
         position: absolute;
+        img{
+          border-radius: 0.2rem;
+        }
       }
       .main-pro-item1{
         left: 0.1rem;
@@ -147,7 +292,7 @@
         top:0.4rem;
         left: 1rem;
       }
-      p:aft2er{
+      p:after{
         content: '';
         position: absolute;
         height: 0.01rem;
@@ -161,6 +306,21 @@
       .prime-pro-banner{
         height: 2rem;
         width: 7.5rem;
+        position: relative;
+        .banner-category{
+          position: absolute;
+          height: 0.6rem;
+          width: 2rem;
+          left: 0;
+          background-color: #000;
+          color: #fff;
+          font-size: .28rem;
+          line-height: 0.6rem;
+          border-radius: 0 10px 10px 0;
+          top:.7rem;
+          opacity: 0.7;
+          padding-left: 0.2rem;
+        }
       }
       .prime-pro-list{
         height: 2.8rem;
@@ -176,37 +336,31 @@
             width: 2.4rem;
             display: inline-block;
             margin: 0.2rem -0.2rem 0.2rem 0;
+            .img-info{
+              height: 1.6rem;
+              img{
+                width: 2.4rem;
+                height: 1.6rem;
+              }
+            }
+            .pro-info{
+              height: 0.8rem;
+              padding: 0 0.05rem;
+              .title{
+                font-size: 0.28rem;
+              }
+              .price{
+                font-size: 0.3rem;
+                color: red;
+                span{
+                  font-size: 0.24rem;
+                }
+              }
+            }
           }
         }
       }
     }
   }
-  .no-pro{
-    height: 0.6rem;
-    line-height: 0.6rem;
-    background-color: #F5F5F5;
-    text-align: center;
-    p{
-      font-size: 0.28rem;
-      position: relative;
-    }
-    p:before{
-      position: absolute;
-      content: '';
-      height: 0.02rem;
-      width: 1.5rem;
-      background-color: #ddd;
-      left: 1rem;
-      top: 0.28rem;
-    }
-    p:after{
-      position: absolute;
-      content: '';
-      height: 0.02rem;
-      width: 1.5rem;
-      background-color: #ddd;
-      left: 5rem;
-      top: 0.28rem;
-    }
-  }
+
 </style>
